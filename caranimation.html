@@ -1,0 +1,205 @@
+<html>
+    <head>
+        <title>
+        </title>
+        <style>
+             
+
+.body {
+    position: relative;
+    background-color: red;
+ animation: move 10s linear infinite;
+
+}
+@keyframes  move{
+    0% {
+        left: -100px;
+        transform: translateY(-50%) scaleX(1);
+    }
+    25% {
+        left: 100%;
+        transform: translateY(-50%) scaleX(1);
+    }
+    50% {
+        left: 100%;
+        transform: translateY(-50%) scaleX(-1);
+    }
+    75% {
+        left: -100px;
+        transform: translateY(-50%) scaleX(-1);
+    }
+    100% {
+        left: -100px;
+        transform: translateY(-50%) scaleX(1);
+    }
+
+}
+.top{
+    width: 160px;
+    height: 70px;
+    border-radius: 0% 100% 1% 2%;
+    background-color: red;
+    position: absolute;
+     margin-top: 40px;
+    margin-left: 75px;
+   
+    transform: translateY(-50%);
+     
+}
+ 
+.window{
+    width: 160px;
+    height: 70px;
+    border-radius: 0% 100% 1% 2%;
+    border: solid transparent;
+    position: fixed;
+     margin-top: px;
+     
+    
+     
+    
+}
+.fwindow{
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: 5px;
+    position: fixed;
+    float: left;
+ 
+}
+.nwindow{
+    width: 55px;
+    height: 40px;
+    background-color: black;
+    margin-top: 25px;
+    margin-left: 85px;
+    position: fixed;
+    float: left;
+    border-radius: 0% 100% 0 0;
+ 
+}
+.bottom {
+    position: absolute;
+    top: 105px;
+    width: 250px;
+    height: 70px;
+    background-color: red;
+    border-radius: 100px 100px 40px 40px;
+    margin-left: 25px;
+    transform: translateY(-50%); 
+}
+.fwheel{
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+    background-color: black;
+    position: fixed;
+margin-top:110px;
+margin-left: 190px;
+float: left;
+  
+animation: rotate 0.5s  linear infinite;
+}
+@keyframes rotate {
+    
+    100%{
+        transform: rotate(360deg)
+    }
+}
+.ifwheel{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(153, 130, 152);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.bwheel{
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+    background-color: black;
+    position: absolute;
+margin-top:110px;
+margin-left: 50px;
+float: left;
+animation: rotate 0.5s  linear infinite;
+}
+@keyframes rotate {
+    
+    100%{
+        transform: rotate(360deg)
+    }
+}
+.owheel{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color:rgb(181, 185, 185) ;
+    margin-top: 20px;
+    position: absolute;
+}
+.twheel{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color:rgb(181, 185, 185) ;
+    margin-top: 40px;margin-left: 20px;
+    position: absolute;
+}
+.ttwheel{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color:rgb(181, 185, 185)  ;
+    margin-left: 40px;margin-top: 17px;
+    position: absolute;
+}
+.ffwheel{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: rgb(181, 185, 185)  ;
+    margin-left: 20px;
+    position: absolute;
+}
+        </style>
+    </head>
+    <body>
+        
+        <div class="car">
+            <div class="body">
+                <div class="top">
+                    <div class="window">
+<div class="fwindow"></div>
+<div class="nwindow"> </div>
+                    </div>
+                </div>
+                <div class="bottom"></div>
+                <div class="fwheel">
+                    <div class="ifwheel">
+                        <div class="owheel"></div>
+                        <div class="twheel"></div>
+                        <div class="ttwheel"></div>
+                        <div class="ffwheel"></div>
+                    </div>
+                 </div>
+                 <div class="bwheel">
+                    <div class="ifwheel">
+                        <div class="owheel"></div>
+                        <div class="twheel"></div>
+                        <div class="ttwheel"></div>
+                        <div class="ffwheel"></div>
+                    </div>
+                 </div>
+            </div>
+           
+            
+           
+              
+             </div>
+                   
+    </body>
+ </html>
